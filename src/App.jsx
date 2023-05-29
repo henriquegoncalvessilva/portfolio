@@ -3,6 +3,7 @@ import { Grid, Typography } from "@mui/material";
 
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -15,19 +16,7 @@ function App() {
       >
         <Header />
         <Hero />
-        <Grid
-          lg={12}
-         
-          style={{ background: "#653DF5"}}
-        >
-          <Grid style={{padding: "24px 0 24px 0" }}  display={"flex"} alignContent={"center"}  justifyContent={"center"} gap={16}   >
-            <span>FrontEnd</span>
-            <span>Desenvolvimento</span>
-            <span>Especialista</span>
-            <span>Code</span>
-            <span>Design</span>
-          </Grid>
-        </Grid>
+        <Skills/>
       </Grid>
     </>
   );
