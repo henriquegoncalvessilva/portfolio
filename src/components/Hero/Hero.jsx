@@ -13,6 +13,7 @@ const Hero = () => {
           justifyContent: "space-around",
           flexGrow: "1",
         }}
+        padding={'112px 0 112px 0'}
       >
         <Grid
           lg={6}
