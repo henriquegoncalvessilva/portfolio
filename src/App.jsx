@@ -1,9 +1,10 @@
 import "./App.css";
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
+import Differentials from "./components/Differentials/Differentials";
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
         container
         alignItems="center"
         justifyContent="center"
-        sx={{ gap: "112px" }}
       >
         <Header />
         <Hero />
         <Skills/>
+        <Differentials/>
       </Grid>
     </>
   );
