@@ -43,7 +43,7 @@ const Differentials = () => {
         
       </div>
     </section>
-  </Grid>
+    </Grid>
   )
 }
 
